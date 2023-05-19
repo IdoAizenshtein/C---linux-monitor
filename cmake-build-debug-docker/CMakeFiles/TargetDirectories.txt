@@ -1,0 +1,3 @@
+/tmp/C---linux-monitor/cmake-build-debug-docker/CMakeFiles/NwBiziboxMonitor.dir
+/tmp/C---linux-monitor/cmake-build-debug-docker/CMakeFiles/edit_cache.dir
+/tmp/C---linux-monitor/cmake-build-debug-docker/CMakeFiles/rebuild_cache.dir

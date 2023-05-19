@@ -1,6 +1,6 @@
 #include <sys/types.h>
 #include <dirent.h>
-#include<unistd.h>
+#include <unistd.h>
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -29,8 +29,8 @@ public:
             } else {
                 struct sockaddr_in name;
                 name.sin_family = AF_INET;
-                name.sin_port = htons (port);
-                name.sin_addr.s_addr = htonl (INADDR_ANY);
+                name.sin_port = htons(port);
+                name.sin_addr.s_addr = htonl(INADDR_ANY);
                 rc = bind(socket_fd, (struct sockaddr *) &name, sizeof(name));
             }
         }
@@ -96,11 +96,10 @@ int main(void) {
     if (!singleton()) {
         return 1;
     }
-
     while (true) {
         pid_t pid = proc_find("nwBizibox");
         if (pid == -1) {
-            system("/home/user/Desktop/nwBizibox/nwBizibox");
+            system("/home/ubuntu/Desktop/nwBizibox/nwBizibox");
         }
         sleep(30);
     }

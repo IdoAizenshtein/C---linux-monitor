@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -g CMakeFiles/NwBiziboxMonitor.dir/main.cpp.o -o NwBiziboxMonitor 
